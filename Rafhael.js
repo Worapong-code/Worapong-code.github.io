@@ -272,5 +272,5 @@ const ButtonCart = totalInCart;
 
 
 const returnToIndex  = () => {
-    window.location.href = '/checkout.html'
+    return window.location.href = '/index.html'
 }
