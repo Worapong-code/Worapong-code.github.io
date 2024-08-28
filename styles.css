@@ -1,0 +1,45 @@
+h5{
+    font-size: 15px;
+    font-weight: bold;
+}
+div.card-body{
+    padding: 10px;
+}
+p.card-text{
+    font-size: 12px;
+}
+.abs{
+    position: absolute;
+    background-color: transparent;
+    color: azure;
+}
+.bgred{
+    background-color: rgba(255, 99, 71, 0.5);
+    
+}
+.bggreen{
+    background-color: rgba(186,255,220, 0.5);
+   
+}
+.bgblue{
+    background-color: rgba(125,225,255, 0.5);
+    
+}
+.dsss{
+    display: inline-block; 
+}
+.ress{
+color: red;
+
+}
+
+
+  .myDIV:hover  {
+   
+    color: rgb(252, 176, 176);
+    margin: 50;
+    border-width: 2px;
+    border-radius: 5px;
+    border-color: rgb(174, 209, 255);
+  }
+  
