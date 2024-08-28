@@ -272,5 +272,5 @@ const ButtonCart = totalInCart;
 
 
 const returnToIndex  = () => {
-    window.location.href = '/Midterm-Project/index.html'
+    window.location.href = '/index.html'
 }
