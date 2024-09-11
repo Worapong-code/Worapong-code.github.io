@@ -28,6 +28,13 @@ document.getElementById('cartCheckOut').innerHTML = products.map((element)=>{
 
 
 }
+
+function confirmOrder() {
+  
+  clearLocal();
+  return (window.location.href = '/index.html')
+}
+
 function Total (){
   document.getElementById('total').innerHTML = `Tatal Price: ${totalprice} $`
 }
