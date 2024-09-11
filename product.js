@@ -48,7 +48,7 @@ function myFunction(e) {
     return(
         
       `     
-      <!-- Button trigger modal --> 
+      
       <div class="myDIV card col-lg-auto mt-2 pt-2" style="width: 14rem;">
         <div type="button" class="" data-toggle="modal" data-target="#exampleModal">
           <img src="${a.url}" alt="" class="" style="width: 10rem;">
@@ -66,24 +66,7 @@ function myFunction(e) {
 
       </div>
 
-      <!-- Modal -->
-      <div class="modal fade " id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" >
-        <div class="modal-dialog  modal-lg" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h2 class="modal-title" id="exampleModalLabel">${a.name}</h2>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body text-center">
-              <img src="${a.url}" alt="" class="" style="width: 40rem;">
-                  </div>
-            <div class="modal-footer">
-                   </div>
-          </div>
-        </div>
-      </div>
+   
     
     `
 

@@ -79,7 +79,7 @@ let products = [
         price: 100,
         discount: 20,
         best: false,
-        productnew: true
+        productnew: false
     },
     {
         id: 9,
