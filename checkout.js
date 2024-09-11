@@ -32,7 +32,12 @@ function Total (){
   document.getElementById('total').innerHTML = `Tatal Price: ${totalprice} $`
 }
 
+function addCountCart() {
+  document.getElementById("countCart").innerHTML =  totalInCart
 
+}
+
+addCountCart() ;
 
 
 CartCheckOut()

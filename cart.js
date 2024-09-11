@@ -12,17 +12,17 @@ let empty = true;
             noNum += 1;
             empty = false;
             return (
-               `<tr >
+               `<tr>
                <th scope="list-inline ">${noNum}</th>
                <td><img src="${element.url}" style="width: 4rem;" alt=""></td>
                <td>${element.name}</td>
                <td class="row justify-content-start">
-                 <h5 class="col-sm-2 mr-2">
+                 <h5 class="col-md-2 mr-2">
                  ${idLocal.count}
                  </h5>
                  
-                 <a class="btn btn-primary col-sm-2 btn-sm" onclick="addToCart1(${element.id})">+</a>
-                 <a class="btn btn-danger col-sm-2 ml-1 btn-sm" onclick="removeToCart1(${element.id})">-</a>
+                 <a class="btn btn-outline-primary col-md-2 ml-1  btn-sm" onclick="addToCart1(${element.id})">+</a>
+                 <a class="btn btn-outline-danger col-md-2  ml-1 btn-sm" onclick="removeToCart1(${element.id})">-</a>
                </td>
                 
                <td>${element.price*idLocal.count} $</td>
