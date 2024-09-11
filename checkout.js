@@ -31,9 +31,14 @@ document.getElementById('cartCheckOut').innerHTML = products.map((element)=>{
 
 function confirmOrder() {
   
-  clearLocal();
-  return (window.location.href = '/index.html')
+ window.location.href = '/index.html'
+ clearLocal()
 }
+function cancleOrder() {
+  
+  window.location.href = '/cart.html'
+
+ }
 
 function Total (){
   document.getElementById('total').innerHTML = `Tatal Price: ${totalprice} $`
